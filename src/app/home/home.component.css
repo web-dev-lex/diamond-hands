@@ -1,7 +1,18 @@
 
 
 .hero {
-  background-image: url('/assets/img/background-city.jpg') !important;
+  background-image: url('https://i.etsystatic.com/24029483/r/il/8d7652/2836972822/il_fullxfull.2836972822_jyny.jpg');
   background-size: cover;
-  background-position: center center;
+  width: 100vw;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -9em;
+}
+
+.title {
+  text-align: center;
+  font-size: 5rem;
+  color: #343434;
+  padding-top: 0.5em;
 }
