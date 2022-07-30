@@ -29,3 +29,13 @@
 .header ul li a:hover {
   background-color: #838282;
 }
+
+@media only screen and (max-width: 800px) {
+  .header h2 {
+    padding: 1em 0 1em 2em;
+  }
+
+  .header ul {
+    padding: 1em 3em 1em 0;
+  }
+}

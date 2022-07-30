@@ -1,6 +1,6 @@
 
 
-<div class="header is-dark">
+<div class="header">
 
   <h2>
     Diamond Hands
@@ -8,10 +8,16 @@
 
   <ul>
     <li>
-      <a routerLink="/home-component">Home</a>
+      <a routerLink="/home-component"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page">Home</a>
     </li>
     <li>
-      <a routerLink="/contact-component">Contact Us</a>
+      <a routerLink="/contact-component"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page">Contact Us</a>
     </li>
   </ul>
 </div>
+
+<router-outlet></router-outlet>
