@@ -1,0 +1,38 @@
+
+
+.container {
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 3rem;
+  padding: 1em;
+}
+
+.form {
+  margin: 0 10em;
+  padding: 2em 10em;
+  background-color: #343434;
+  border-radius: 10px;
+}
+
+.form input {
+  margin: 1em 0;
+}
+
+.form textarea {
+  margin: 1em 0;
+}
+
+.button {
+  margin: 1em 0;
+  padding: 0.5em 2em;
+  border-radius: 2em; 
+  transition: 0.3s;
+  font-weight: 500;
+  border: none;
+}
+
+.button:hover {
+  background-color: #838282;
+}
