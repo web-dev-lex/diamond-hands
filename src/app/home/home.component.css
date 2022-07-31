@@ -47,20 +47,13 @@
   border: none;
   color: #fff;
   border-radius: 10px;
-  box-shadow: 4px 4px 0 #000;
-  position: relative;
-  z-index: 2;
-  transition: 0.1s;
-  transform: translate3d(0 0 0);
-  transform-style: preserve-3d;
-  box-sizing: border-box;
+  transition: 0.3s;
 }
 
 
 .btn:hover {
-  box-shadow: none;
-  transform: translate3d(4px 4px 0);
-  box-sizing: border-box;
+  box-shadow: 0 0 100px #2B69F0;
+  color: #2B69F0;
 }
 
 @media only screen and (max-width: 950px) {
